@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AF19064196FD9C4009140DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF19063196FD9C4009140DC /* Foundation.framework */; };
+		9AF19066196FD9C4009140DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF19065196FD9C4009140DC /* CoreGraphics.framework */; };
+		9AF19068196FD9C4009140DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF19067196FD9C4009140DC /* UIKit.framework */; };
+		9AF1906A196FD9C4009140DC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF19069196FD9C4009140DC /* GLKit.framework */; };
+		9AF1906C196FD9C4009140DC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF1906B196FD9C4009140DC /* OpenGLES.framework */; };
+		9AF19072196FD9C4009140DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AF19070196FD9C4009140DC /* InfoPlist.strings */; };
+		9AF19074196FD9C4009140DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF19073196FD9C4009140DC /* main.m */; };
+		9AF19078196FD9C4009140DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF19077196FD9C4009140DC /* AppDelegate.m */; };
+		9AF1907B196FD9C4009140DC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF19079196FD9C4009140DC /* Main_iPhone.storyboard */; };
+		9AF1907E196FD9C4009140DC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF1907C196FD9C4009140DC /* Main_iPad.storyboard */; };
+		9AF19080196FD9C4009140DC /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 9AF1907F196FD9C4009140DC /* Shader.fsh */; };
+		9AF19082196FD9C4009140DC /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 9AF19081196FD9C4009140DC /* Shader.vsh */; };
+		9AF19085196FD9C4009140DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF19084196FD9C4009140DC /* ViewController.m */; };
+		9AF19087196FD9C4009140DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF19086196FD9C4009140DC /* Images.xcassets */; };
+		9AF1908E196FD9C4009140DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF1908D196FD9C4009140DC /* XCTest.framework */; };
+		9AF1908F196FD9C4009140DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF19063196FD9C4009140DC /* Foundation.framework */; };
+		9AF19090196FD9C4009140DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF19067196FD9C4009140DC /* UIKit.framework */; };
+		9AF19098196FD9C4009140DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AF19096196FD9C4009140DC /* InfoPlist.strings */; };
+		9AF1909A196FD9C4009140DC /* AugmentedRealityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF19099196FD9C4009140DC /* AugmentedRealityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AF19091196FD9C4009140DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AF19058196FD9C4009140DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AF1905F196FD9C4009140DC;
+			remoteInfo = AugmentedReality;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AF19060196FD9C4009140DC /* AugmentedReality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AugmentedReality.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF19063196FD9C4009140DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AF19065196FD9C4009140DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AF19067196FD9C4009140DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9AF19069196FD9C4009140DC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		9AF1906B196FD9C4009140DC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9AF1906F196FD9C4009140DC /* AugmentedReality-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AugmentedReality-Info.plist"; sourceTree = "<group>"; };
+		9AF19071196FD9C4009140DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AF19073196FD9C4009140DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AF19075196FD9C4009140DC /* AugmentedReality-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AugmentedReality-Prefix.pch"; sourceTree = "<group>"; };
+		9AF19076196FD9C4009140DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AF19077196FD9C4009140DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AF1907A196FD9C4009140DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9AF1907D196FD9C4009140DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9AF1907F196FD9C4009140DC /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		9AF19081196FD9C4009140DC /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		9AF19083196FD9C4009140DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AF19084196FD9C4009140DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AF19086196FD9C4009140DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AF1908C196FD9C4009140DC /* AugmentedRealityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AugmentedRealityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF1908D196FD9C4009140DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9AF19095196FD9C4009140DC /* AugmentedRealityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AugmentedRealityTests-Info.plist"; sourceTree = "<group>"; };
+		9AF19097196FD9C4009140DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AF19099196FD9C4009140DC /* AugmentedRealityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AugmentedRealityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AF1905D196FD9C4009140DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF1906C196FD9C4009140DC /* OpenGLES.framework in Frameworks */,
+				9AF19066196FD9C4009140DC /* CoreGraphics.framework in Frameworks */,
+				9AF19068196FD9C4009140DC /* UIKit.framework in Frameworks */,
+				9AF1906A196FD9C4009140DC /* GLKit.framework in Frameworks */,
+				9AF19064196FD9C4009140DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF19089196FD9C4009140DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF1908E196FD9C4009140DC /* XCTest.framework in Frameworks */,
+				9AF19090196FD9C4009140DC /* UIKit.framework in Frameworks */,
+				9AF1908F196FD9C4009140DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AF19057196FD9C4009140DC = {
+			isa = PBXGroup;
+			children = (
+				9AF1906D196FD9C4009140DC /* AugmentedReality */,
+				9AF19093196FD9C4009140DC /* AugmentedRealityTests */,
+				9AF19062196FD9C4009140DC /* Frameworks */,
+				9AF19061196FD9C4009140DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF19061196FD9C4009140DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AF19060196FD9C4009140DC /* AugmentedReality.app */,
+				9AF1908C196FD9C4009140DC /* AugmentedRealityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF19062196FD9C4009140DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AF19063196FD9C4009140DC /* Foundation.framework */,
+				9AF19065196FD9C4009140DC /* CoreGraphics.framework */,
+				9AF19067196FD9C4009140DC /* UIKit.framework */,
+				9AF19069196FD9C4009140DC /* GLKit.framework */,
+				9AF1906B196FD9C4009140DC /* OpenGLES.framework */,
+				9AF1908D196FD9C4009140DC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AF1906D196FD9C4009140DC /* AugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				9AF19076196FD9C4009140DC /* AppDelegate.h */,
+				9AF19077196FD9C4009140DC /* AppDelegate.m */,
+				9AF19079196FD9C4009140DC /* Main_iPhone.storyboard */,
+				9AF1907C196FD9C4009140DC /* Main_iPad.storyboard */,
+				9AF1907F196FD9C4009140DC /* Shader.fsh */,
+				9AF19081196FD9C4009140DC /* Shader.vsh */,
+				9AF19083196FD9C4009140DC /* ViewController.h */,
+				9AF19084196FD9C4009140DC /* ViewController.m */,
+				9AF19086196FD9C4009140DC /* Images.xcassets */,
+				9AF1906E196FD9C4009140DC /* Supporting Files */,
+			);
+			path = AugmentedReality;
+			sourceTree = "<group>";
+		};
+		9AF1906E196FD9C4009140DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AF1906F196FD9C4009140DC /* AugmentedReality-Info.plist */,
+				9AF19070196FD9C4009140DC /* InfoPlist.strings */,
+				9AF19073196FD9C4009140DC /* main.m */,
+				9AF19075196FD9C4009140DC /* AugmentedReality-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AF19093196FD9C4009140DC /* AugmentedRealityTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AF19099196FD9C4009140DC /* AugmentedRealityTests.m */,
+				9AF19094196FD9C4009140DC /* Supporting Files */,
+			);
+			path = AugmentedRealityTests;
+			sourceTree = "<group>";
+		};
+		9AF19094196FD9C4009140DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AF19095196FD9C4009140DC /* AugmentedRealityTests-Info.plist */,
+				9AF19096196FD9C4009140DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AF1905F196FD9C4009140DC /* AugmentedReality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF1909D196FD9C4009140DC /* Build configuration list for PBXNativeTarget "AugmentedReality" */;
+			buildPhases = (
+				9AF1905C196FD9C4009140DC /* Sources */,
+				9AF1905D196FD9C4009140DC /* Frameworks */,
+				9AF1905E196FD9C4009140DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AugmentedReality;
+			productName = AugmentedReality;
+			productReference = 9AF19060196FD9C4009140DC /* AugmentedReality.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AF1908B196FD9C4009140DC /* AugmentedRealityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF190A0196FD9C4009140DC /* Build configuration list for PBXNativeTarget "AugmentedRealityTests" */;
+			buildPhases = (
+				9AF19088196FD9C4009140DC /* Sources */,
+				9AF19089196FD9C4009140DC /* Frameworks */,
+				9AF1908A196FD9C4009140DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AF19092196FD9C4009140DC /* PBXTargetDependency */,
+			);
+			name = AugmentedRealityTests;
+			productName = AugmentedRealityTests;
+			productReference = 9AF1908C196FD9C4009140DC /* AugmentedRealityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AF19058196FD9C4009140DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hugo;
+				TargetAttributes = {
+					9AF1908B196FD9C4009140DC = {
+						TestTargetID = 9AF1905F196FD9C4009140DC;
+					};
+				};
+			};
+			buildConfigurationList = 9AF1905B196FD9C4009140DC /* Build configuration list for PBXProject "AugmentedReality" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AF19057196FD9C4009140DC;
+			productRefGroup = 9AF19061196FD9C4009140DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AF1905F196FD9C4009140DC /* AugmentedReality */,
+				9AF1908B196FD9C4009140DC /* AugmentedRealityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AF1905E196FD9C4009140DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF19080196FD9C4009140DC /* Shader.fsh in Resources */,
+				9AF1907E196FD9C4009140DC /* Main_iPad.storyboard in Resources */,
+				9AF1907B196FD9C4009140DC /* Main_iPhone.storyboard in Resources */,
+				9AF19087196FD9C4009140DC /* Images.xcassets in Resources */,
+				9AF19072196FD9C4009140DC /* InfoPlist.strings in Resources */,
+				9AF19082196FD9C4009140DC /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF1908A196FD9C4009140DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF19098196FD9C4009140DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AF1905C196FD9C4009140DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF19085196FD9C4009140DC /* ViewController.m in Sources */,
+				9AF19078196FD9C4009140DC /* AppDelegate.m in Sources */,
+				9AF19074196FD9C4009140DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF19088196FD9C4009140DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF1909A196FD9C4009140DC /* AugmentedRealityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AF19092196FD9C4009140DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AF1905F196FD9C4009140DC /* AugmentedReality */;
+			targetProxy = 9AF19091196FD9C4009140DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AF19070196FD9C4009140DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF19071196FD9C4009140DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AF19079196FD9C4009140DC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF1907A196FD9C4009140DC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9AF1907C196FD9C4009140DC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF1907D196FD9C4009140DC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9AF19096196FD9C4009140DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF19097196FD9C4009140DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AF1909B196FD9C4009140DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AF1909C196FD9C4009140DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AF1909E196FD9C4009140DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AugmentedReality/AugmentedReality-Prefix.pch";
+				INFOPLIST_FILE = "AugmentedReality/AugmentedReality-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9AF1909F196FD9C4009140DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AugmentedReality/AugmentedReality-Prefix.pch";
+				INFOPLIST_FILE = "AugmentedReality/AugmentedReality-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9AF190A1196FD9C4009140DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AugmentedReality.app/AugmentedReality";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AugmentedReality/AugmentedReality-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AugmentedRealityTests/AugmentedRealityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9AF190A2196FD9C4009140DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AugmentedReality.app/AugmentedReality";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AugmentedReality/AugmentedReality-Prefix.pch";
+				INFOPLIST_FILE = "AugmentedRealityTests/AugmentedRealityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AF1905B196FD9C4009140DC /* Build configuration list for PBXProject "AugmentedReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF1909B196FD9C4009140DC /* Debug */,
+				9AF1909C196FD9C4009140DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF1909D196FD9C4009140DC /* Build configuration list for PBXNativeTarget "AugmentedReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF1909E196FD9C4009140DC /* Debug */,
+				9AF1909F196FD9C4009140DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AF190A0196FD9C4009140DC /* Build configuration list for PBXNativeTarget "AugmentedRealityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF190A1196FD9C4009140DC /* Debug */,
+				9AF190A2196FD9C4009140DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AF19058196FD9C4009140DC /* Project object */;
+}
