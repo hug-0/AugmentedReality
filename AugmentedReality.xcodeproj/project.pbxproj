@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0CEA7719D5C76100C65973 /* bohus_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A0CEA7619D5C76100C65973 /* bohus_small.jpg */; };
+		9A5EC08119768A4900FC24FB /* Scanax_Marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A5EC08019768A4900FC24FB /* Scanax_Marker.png */; };
+		9A5EC083197691DB00FC24FB /* Scanax_Marker_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A5EC082197691DB00FC24FB /* Scanax_Marker_2.png */; };
+		9A934BE61972C387002ABB32 /* Church_Floored.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A934BE41972C387002ABB32 /* Church_Floored.c */; };
+		9A934BF01972F203002ABB32 /* iOS_Church_Done.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A934BEE1972F203002ABB32 /* iOS_Church_Done.c */; };
+		9A934BFB1972F5AF002ABB32 /* iOS_Church.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A934BFA1972F5AF002ABB32 /* iOS_Church.jpg */; };
+		9ADC221719D5C08D0010E085 /* bohus_small_new.c in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC221519D5C08D0010E085 /* bohus_small_new.c */; };
 		9AF19064196FD9C4009140DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF19063196FD9C4009140DC /* Foundation.framework */; };
 		9AF19066196FD9C4009140DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF19065196FD9C4009140DC /* CoreGraphics.framework */; };
 		9AF19068196FD9C4009140DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF19067196FD9C4009140DC /* UIKit.framework */; };
@@ -26,6 +33,13 @@
 		9AF19090196FD9C4009140DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF19067196FD9C4009140DC /* UIKit.framework */; };
 		9AF19098196FD9C4009140DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AF19096196FD9C4009140DC /* InfoPlist.strings */; };
 		9AF1909A196FD9C4009140DC /* AugmentedRealityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF19099196FD9C4009140DC /* AugmentedRealityTests.m */; };
+		9AF190A4196FDA0B009140DC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF190A3196FDA0B009140DC /* QuartzCore.framework */; };
+		9AF190A6196FDA13009140DC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF190A5196FDA13009140DC /* AVFoundation.framework */; };
+		9AF190A8196FDA1C009140DC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF190A7196FDA1C009140DC /* CoreMedia.framework */; };
+		9AF190AA196FDA28009140DC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF190A9196FDA28009140DC /* CoreVideo.framework */; };
+		9AF190AC196FDAB2009140DC /* libString-2.0b6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF190AB196FDAB2009140DC /* libString-2.0b6.a */; };
+		9AF190B0196FDB10009140DC /* Marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF190AF196FDB10009140DC /* Marker.png */; };
+		9AF190B3196FDDB9009140DC /* Dummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AF190B1196FDDB9009140DC /* Dummy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +53,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A0CEA7619D5C76100C65973 /* bohus_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bohus_small.jpg; sourceTree = "<group>"; };
+		9A5EC08019768A4900FC24FB /* Scanax_Marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scanax_Marker.png; sourceTree = "<group>"; };
+		9A5EC082197691DB00FC24FB /* Scanax_Marker_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scanax_Marker_2.png; sourceTree = "<group>"; };
+		9A934BE41972C387002ABB32 /* Church_Floored.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Church_Floored.c; sourceTree = "<group>"; };
+		9A934BE51972C387002ABB32 /* Church_Floored.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Church_Floored.h; sourceTree = "<group>"; };
+		9A934BEE1972F203002ABB32 /* iOS_Church_Done.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iOS_Church_Done.c; sourceTree = "<group>"; };
+		9A934BEF1972F203002ABB32 /* iOS_Church_Done.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS_Church_Done.h; sourceTree = "<group>"; };
+		9A934BFA1972F5AF002ABB32 /* iOS_Church.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iOS_Church.jpg; sourceTree = "<group>"; };
+		9ADC221519D5C08D0010E085 /* bohus_small_new.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bohus_small_new.c; sourceTree = "<group>"; };
+		9ADC221619D5C08D0010E085 /* bohus_small_new.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bohus_small_new.h; sourceTree = "<group>"; };
 		9AF19060196FD9C4009140DC /* AugmentedReality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AugmentedReality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF19063196FD9C4009140DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9AF19065196FD9C4009140DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +87,16 @@
 		9AF19095196FD9C4009140DC /* AugmentedRealityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AugmentedRealityTests-Info.plist"; sourceTree = "<group>"; };
 		9AF19097196FD9C4009140DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9AF19099196FD9C4009140DC /* AugmentedRealityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AugmentedRealityTests.m; sourceTree = "<group>"; };
+		9AF190A3196FDA0B009140DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9AF190A5196FDA13009140DC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9AF190A7196FDA1C009140DC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9AF190A9196FDA28009140DC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9AF190AB196FDAB2009140DC /* libString-2.0b6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libString-2.0b6.a"; sourceTree = "<group>"; };
+		9AF190AD196FDAF0009140DC /* StringOGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringOGL.h; sourceTree = "<group>"; };
+		9AF190AE196FDAF0009140DC /* TrackerOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerOutput.h; sourceTree = "<group>"; };
+		9AF190AF196FDB10009140DC /* Marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Marker.png; path = ../Marker.png; sourceTree = "<group>"; };
+		9AF190B1196FDDB9009140DC /* Dummy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dummy.cpp; sourceTree = "<group>"; };
+		9AF190B2196FDDB9009140DC /* Dummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dummy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +104,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AF190AA196FDA28009140DC /* CoreVideo.framework in Frameworks */,
+				9AF190A8196FDA1C009140DC /* CoreMedia.framework in Frameworks */,
+				9AF190A6196FDA13009140DC /* AVFoundation.framework in Frameworks */,
+				9AF190A4196FDA0B009140DC /* QuartzCore.framework in Frameworks */,
 				9AF1906C196FD9C4009140DC /* OpenGLES.framework in Frameworks */,
+				9AF190AC196FDAB2009140DC /* libString-2.0b6.a in Frameworks */,
 				9AF19066196FD9C4009140DC /* CoreGraphics.framework in Frameworks */,
 				9AF19068196FD9C4009140DC /* UIKit.framework in Frameworks */,
 				9AF1906A196FD9C4009140DC /* GLKit.framework in Frameworks */,
@@ -91,9 +130,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A934BED1972F1F9002ABB32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A0CEA7619D5C76100C65973 /* bohus_small.jpg */,
+				9ADC221519D5C08D0010E085 /* bohus_small_new.c */,
+				9ADC221619D5C08D0010E085 /* bohus_small_new.h */,
+				9A934BFA1972F5AF002ABB32 /* iOS_Church.jpg */,
+				9A934BEE1972F203002ABB32 /* iOS_Church_Done.c */,
+				9A934BEF1972F203002ABB32 /* iOS_Church_Done.h */,
+				9A934BE41972C387002ABB32 /* Church_Floored.c */,
+				9A934BE51972C387002ABB32 /* Church_Floored.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		9AF19057196FD9C4009140DC = {
 			isa = PBXGroup;
 			children = (
+				9AF190AB196FDAB2009140DC /* libString-2.0b6.a */,
 				9AF1906D196FD9C4009140DC /* AugmentedReality */,
 				9AF19093196FD9C4009140DC /* AugmentedRealityTests */,
 				9AF19062196FD9C4009140DC /* Frameworks */,
@@ -113,6 +168,10 @@
 		9AF19062196FD9C4009140DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9AF190A9196FDA28009140DC /* CoreVideo.framework */,
+				9AF190A7196FDA1C009140DC /* CoreMedia.framework */,
+				9AF190A5196FDA13009140DC /* AVFoundation.framework */,
+				9AF190A3196FDA0B009140DC /* QuartzCore.framework */,
 				9AF19063196FD9C4009140DC /* Foundation.framework */,
 				9AF19065196FD9C4009140DC /* CoreGraphics.framework */,
 				9AF19067196FD9C4009140DC /* UIKit.framework */,
@@ -126,6 +185,9 @@
 		9AF1906D196FD9C4009140DC /* AugmentedReality */ = {
 			isa = PBXGroup;
 			children = (
+				9A934BED1972F1F9002ABB32 /* Models */,
+				9AF190AD196FDAF0009140DC /* StringOGL.h */,
+				9AF190AE196FDAF0009140DC /* TrackerOutput.h */,
 				9AF19076196FD9C4009140DC /* AppDelegate.h */,
 				9AF19077196FD9C4009140DC /* AppDelegate.m */,
 				9AF19079196FD9C4009140DC /* Main_iPhone.storyboard */,
@@ -134,7 +196,12 @@
 				9AF19081196FD9C4009140DC /* Shader.vsh */,
 				9AF19083196FD9C4009140DC /* ViewController.h */,
 				9AF19084196FD9C4009140DC /* ViewController.m */,
+				9AF190B1196FDDB9009140DC /* Dummy.cpp */,
+				9AF190B2196FDDB9009140DC /* Dummy.h */,
 				9AF19086196FD9C4009140DC /* Images.xcassets */,
+				9A5EC082197691DB00FC24FB /* Scanax_Marker_2.png */,
+				9A5EC08019768A4900FC24FB /* Scanax_Marker.png */,
+				9AF190AF196FDB10009140DC /* Marker.png */,
 				9AF1906E196FD9C4009140DC /* Supporting Files */,
 			);
 			path = AugmentedReality;
@@ -216,6 +283,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = hugo;
 				TargetAttributes = {
+					9AF1905F196FD9C4009140DC = {
+						DevelopmentTeam = 5AWDK9V2LS;
+					};
 					9AF1908B196FD9C4009140DC = {
 						TestTargetID = 9AF1905F196FD9C4009140DC;
 					};
@@ -246,11 +316,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AF19080196FD9C4009140DC /* Shader.fsh in Resources */,
+				9AF190B0196FDB10009140DC /* Marker.png in Resources */,
+				9A934BFB1972F5AF002ABB32 /* iOS_Church.jpg in Resources */,
 				9AF1907E196FD9C4009140DC /* Main_iPad.storyboard in Resources */,
 				9AF1907B196FD9C4009140DC /* Main_iPhone.storyboard in Resources */,
+				9A5EC08119768A4900FC24FB /* Scanax_Marker.png in Resources */,
+				9A5EC083197691DB00FC24FB /* Scanax_Marker_2.png in Resources */,
 				9AF19087196FD9C4009140DC /* Images.xcassets in Resources */,
 				9AF19072196FD9C4009140DC /* InfoPlist.strings in Resources */,
 				9AF19082196FD9C4009140DC /* Shader.vsh in Resources */,
+				9A0CEA7719D5C76100C65973 /* bohus_small.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +346,10 @@
 			files = (
 				9AF19085196FD9C4009140DC /* ViewController.m in Sources */,
 				9AF19078196FD9C4009140DC /* AppDelegate.m in Sources */,
+				9A934BE61972C387002ABB32 /* Church_Floored.c in Sources */,
+				9ADC221719D5C08D0010E085 /* bohus_small_new.c in Sources */,
+				9AF190B3196FDDB9009140DC /* Dummy.cpp in Sources */,
+				9A934BF01972F203002ABB32 /* iOS_Church_Done.c in Sources */,
 				9AF19074196FD9C4009140DC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,10 +485,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AugmentedReality/AugmentedReality-Prefix.pch";
 				INFOPLIST_FILE = "AugmentedReality/AugmentedReality-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				New_Setting = "";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_SIZE = 4096x4096;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -419,10 +511,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AugmentedReality/AugmentedReality-Prefix.pch";
 				INFOPLIST_FILE = "AugmentedReality/AugmentedReality-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				New_Setting = "";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_SIZE = 4096x4096;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -486,6 +589,7 @@
 				9AF1909F196FD9C4009140DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AF190A0196FD9C4009140DC /* Build configuration list for PBXNativeTarget "AugmentedRealityTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +598,7 @@
 				9AF190A2196FD9C4009140DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
